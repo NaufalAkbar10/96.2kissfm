@@ -27,9 +27,15 @@
           </div>
           <!-- Primary Navbar items -->
           <div class="hidden md:flex items-center space-x-16">
-            <a href="profile.html" class="text-lg text-white font-bold">Profile</a>
-            <a href="charts.html" class="text-lg text-white font-bold">Charts</a>
-            <a href="contact.html" class="text-lg text-white font-bold">Contact Us</a>
+            <a href="profile.html" class="text-lg text-white font-bold"
+              >Profile</a
+            >
+            <a href="charts.html" class="text-lg text-white font-bold"
+              >Charts</a
+            >
+            <a href="contact.html" class="text-lg text-white font-bold"
+              >Contact Us</a
+            >
           </div>
           <!-- Mobile menu button -->
           <div class="md:hidden flex items-center">
@@ -77,19 +83,176 @@
         </ul>
       </div>
     </nav>
-    <h1 class="text-green-500 text-2xl md:text-3xl lg:text-4xl font-bold p-4">
-     Index
-    </h1>
 
+    <div class="hero relative text-black text-sm">
+      <img
+        class="h-32 md:h-96 w-full object-cover md:object-contain"
+        src="./assets/images/hero.png"
+        alt="hero"
+      />
+      <div class="absolute top-0 left-0 w-full h-full flex items-center">
+        <div class="wrapper max-w-7xl mx-auto px-4">
+          <h2 class="text-xl md:text-3xl">The Real Interactive Radio</h2>
+          <p class="hidden md:block w-1/2 mt-4">
+            Kiss FM adalah radio keluarga untuk jember dan kawasan sekitarnya (
+            surrounding area). Target main audience umur 15 - 44 Tahun dan
+            secondary audience 45 tahun keatas. Pria 45% - Wanita 55% dengan
+            psikografis pendengar Kiss FM yang cermat, melihat prestasi sebagai
+            kebutuhan (punya need for achivement) dan cinta keluarga serta
+            lingkungannya.
+          </p>
+          <button
+            class="text-white py-1 px-2 secondaryBg rounded-full mt-1 md:mt-5"
+          >
+            Get Apss
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto my-14">
+      <div id="default-carousel" class="relative" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="overflow-hidden flex justify-center relative h-20 md:h-32 xl:h-56 rounded-lg sm:h-64 xl:h-96 2xl:h-96">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./assets/images/about.png" class="block absolute top-1/2 left-1/2 w-4/5 -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./assets/images/about.png" class="block absolute top-1/2 left-1/2 w-4/5 -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./assets/images/about.png" class="block absolute top-1/2 left-1/2 w-4/5 -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+            </div>
+            <!-- Slider controls -->
+            <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+                <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-gray-300">
+                    <svg class="w-5 h-5 text-white sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                    <span class="hidden">Previous</span>
+                </span>
+            </button>
+            <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+                <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-gray-300">
+                    <svg class="w-5 h-5 text-white sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    <span class="hidden">Next</span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <p class="max-w-7xl mx-auto px-4 my-14 text-center w-4/5">
+      Produk diatas adalah advertisement sponsorship yang bekerja sama dengan
+      radio 96.2 Kiss FM Jember. Dengarkan radio dan ikuti quiz - quiz yang
+      dibacakan oleh penyiar untuk memenangkan hadiah produk salah satu
+      sponsorship diatas.
+    </p>
+
+    <img
+      class="h-72 md:h-screen w-full object-cover md:object-contain md:object-cover"
+      src="./assets/images/news.png"
+      alt=""
+    />
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-10 max-w-7xl mx-auto px-4 my-14"
+    >
+      <div class="item flex flex-col items-center space-y-9">
+        <img
+          class="h-80 w-auto object-cover"
+          src="./assets/images/news/1.jpg"
+          alt=""
+        />
+        <p class="text-center">
+          Timnas Indonesia berhasil mendapatkan medali emas di sea games Kamboja
+          tahun 2023. Para pemain dihadiahi sejumlah kendaraan mewah dari
+          presiden.
+        </p>
+      </div>
+
+      <div class="item flex flex-col items-center space-y-9">
+        <img
+          class="h-80 w-auto object-cover"
+          src="./assets/images/news/2.jpg"
+          alt=""
+        />
+        <p class="text-center">
+          Warga Ambulu di Kab. Jember digegerkan dengan kemunculan ular
+          berkepala dua. Warga menemukan ular tersebut di salah satu pekarangan
+          warga.
+        </p>
+      </div>
+
+      <div class="item flex flex-col items-center space-y-9">
+        <img
+          class="h-80 w-auto object-cover"
+          src="./assets/images/news/3.jpg"
+          alt=""
+        />
+        <p class="text-center">
+          Warga Puger di Kab. Jember digegerkan dengan kemunculan buaya air
+          asin. Warga menemukan buaya tersebut di muara sungai.
+        </p>
+      </div>
+    </div>
+    <div class="flex justify-center mb-8">
+      <button class="secondaryBg py-3 px-5 rounded-xl text-white w-fit">
+        Older Post
+      </button>
+    </div>
+    
+    <div class="max-w-7xl mx-auto px-4 h-px w-full lightBg"></div>
+
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-x-80 my-16">
+      <div class="item flex flex-col items-center text-center">
+        <h5 class="text-xl">40 Countdown</h5>
+        <img
+          class="h-60 w-auto object-cover mb-16"
+          src="./assets/images/music/1.png"
+          alt=""
+        />
+        <p class="text-sm">
+          Yuk dengerin lagu-lagu luar negeri yang lagi hits, pilih menu charts
+          dan dengerin lagu luar negeri kesukaan kamu dan jangan lupa dengerin
+          program daily & weekly kita ya! Enjoy!
+        </p>
+      </div>
+
+      <div class="item flex flex-col items-center text-center">
+        <h5 class="text-xl">25 Indo Hits</h5>
+        <img
+          class="h-60 w-auto object-cover mb-16"
+          src="./assets/images/music/2.png"
+          alt=""
+        />
+        <p class="text-sm">
+          Yuk dengerin lagu-lagu Indonesia yang lagi hits nih, pilih menu charts
+          dan dengerin lagu Indonesia kesukaan kamu dan jangan lupa dengerin
+          program daily & weekly kita ya! Enjoy!
+        </p>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 h-px w-full lightBg"></div>
+
+    <div class="max-w-7xl mx-auto px-4 flex justify-center">
+      <img class="h-48 w-auto object-contain mt-24" src="./assets/images/live.png" alt="live animation">
+    </div>
     <footer class="primaryBg text-sm text-white py-12 mt-28">
-      <div class="wrapper flex justify-center md:justify-start flex-wrap gap-x-12 max-w-7xl mx-auto px-4">
+      <div
+        class="wrapper flex justify-center md:justify-start flex-wrap gap-x-12 max-w-7xl mx-auto px-4"
+      >
         <div class="brand">
           <img
             class="logo h-12 w-48"
             src="./assets/images/logo.png"
             alt="logo"
           />
-          <h5 class="secondaryBg whitespace-nowrap w-fit rounded-md mt-2 py-1 px-4">
+          <h5
+            class="secondaryBg whitespace-nowrap w-fit rounded-md mt-2 py-1 px-4"
+          >
             THE REAL INTERACTIVE RADIO
           </h5>
         </div>
@@ -174,7 +337,9 @@
             <p class="text-center">Total Votes : 3.820</p>
           </div>
         </div>
-        <div class="flex flex-rows w-full md:w-52 flex-wrap content-start gap-0.5 text-sm text-black">
+        <div
+          class="flex flex-rows w-full md:w-52 flex-wrap content-start gap-0.5 text-sm text-black"
+        >
           <p class="p-1 h-fit bg-white">DPRD</p>
           <p class="p-1 h-fit bg-white">Berita</p>
           <p class="p-1 h-fit bg-white">Indonesia</p>
@@ -191,6 +356,7 @@
       <div class="h-1 bg-white w-full mt-12 max-w-7xl mx-auto px-4"></div>
     </footer>
 
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </body>
