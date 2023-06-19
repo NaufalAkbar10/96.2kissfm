@@ -27,3 +27,7 @@
     rgba(155, 154, 154, 0) 100%
   );
 }
+
+.title {
+  background-image: url('/assets/images/rectangle.png');
+}
