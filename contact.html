@@ -27,9 +27,15 @@
           </div>
           <!-- Primary Navbar items -->
           <div class="hidden md:flex items-center space-x-16">
-            <a href="profile.html" class="text-lg text-white font-bold">Profile</a>
-            <a href="charts.html" class="text-lg text-white font-bold">Charts</a>
-            <a href="contact.html" class="text-lg text-white font-bold">Contact Us</a>
+            <a href="profile.html" class="text-lg text-white font-bold"
+              >Profile</a
+            >
+            <a href="charts.html" class="text-lg text-white font-bold"
+              >Charts</a
+            >
+            <a href="contact.html" class="text-lg text-white font-bold"
+              >Contact Us</a
+            >
           </div>
           <!-- Mobile menu button -->
           <div class="md:hidden flex items-center">
@@ -77,19 +83,88 @@
         </ul>
       </div>
     </nav>
-    <h1 class="text-green-500 text-2xl md:text-3xl lg:text-4xl font-bold p-4">
-     Contact
-    </h1>
+
+    <div class="relative max-w-7xl mx-auto px-4 text-base md:text-2xl">
+      <div class="countdown w-full md:w-2/4 mb-28">
+        <div class="title py-3 w-full md:w-2/3 flex items-center mb-9">
+          <p class="text-5xl font-bold">Contact Us</p>
+        </div>
+        <p class="pb-2 md:pb-7">Radio Kiss FM</p>
+        <p class="pb-2 md:pb-7">Jl. Kartini No. 25 Jember</p>
+
+        <table class="">
+          <tr>
+            <th class="text-start pb-2 md:pb-7 pr-20 font-normal">Telp</th>
+            <td class="pb-2 md:pb-7">: 0331 - 424055</td>
+          </tr>
+          <tr>
+            <th class="text-start pb-2 md:pb-7 pr-20 font-normal"></th>
+            <td class="pb-2 md:pb-7">&nbsp;&nbsp;0331 - 426849</td>
+          </tr>
+          <tr>
+            <th class="text-start pb-2 md:pb-7 pr-20 font-normal">Fax</th>
+            <td class="pb-2 md:pb-7">: 0331 - 426850</td>
+          </tr>
+          <tr>
+            <th class="text-start pb-7 pr-20 font-normal">Email</th>
+            <td class="pb-7">:</td>
+          </tr>
+          <tr>
+            <th class="text-start pb-7 pr-20 font-normal">Marketing</th>
+            <td class="pb-7">: kissfmmarket@gmail.com</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="box py-6 px-14 border divide-y">
+        <div class="field space-y-5 pb-5">
+          <div class="flex flex-col md:flex-row gap-x-16">
+            <div class="name flex flex-col w-full space-y-1">
+              <label for="">Name :</label>
+              <input type="text" class="h-16 bg-gray-300 rounded-xl" />
+            </div>
+            <div class="email flex flex-col w-full space-y-1">
+              <label for="">Email :</label>
+              <input type="email" class="h-16 bg-gray-300 rounded-xl" />
+            </div>
+          </div>
+          <div class="message flex flex-col space-y-1">
+            <label for="">Message :</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="h-96 bg-gray-300 rounded-xl"
+            ></textarea>
+          </div>
+        </div>
+        <div class="human flex flex-col py-5">
+          <label for="">HUMAN VERIFICATION :</label>
+          <div class="field">
+            <input type="text" class="h-16 w-32 bg-gray-300 rounded-xl" />
+            <span class="text-gray-500">+ 3 = 5</span>
+          </div>
+        </div>
+        <div class="grid py-5">
+          <button class="secondaryBg py-2 px-5 rounded-2xl text-white w-fit">SUBMIT</button>
+        </div>
+      </div>
+    </div>
 
     <footer class="primaryBg text-sm text-white py-12 mt-28">
-      <div class="wrapper flex justify-center md:justify-start flex-wrap gap-x-12 max-w-7xl mx-auto px-4">
+      <div
+        class="wrapper flex justify-center md:justify-start flex-wrap gap-x-12 max-w-7xl mx-auto px-4"
+      >
         <div class="brand">
           <img
             class="logo h-12 w-48"
             src="./assets/images/logo.png"
             alt="logo"
           />
-          <h5 class="secondaryBg whitespace-nowrap w-fit rounded-md mt-2 py-1 px-4">
+          <h5
+            class="secondaryBg whitespace-nowrap w-fit rounded-md mt-2 py-1 px-4"
+          >
             THE REAL INTERACTIVE RADIO
           </h5>
         </div>
@@ -174,7 +249,9 @@
             <p class="text-center">Total Votes : 3.820</p>
           </div>
         </div>
-        <div class="flex flex-rows w-full md:w-52 flex-wrap content-start gap-0.5 text-sm text-black">
+        <div
+          class="flex flex-rows w-full md:w-52 flex-wrap content-start gap-0.5 text-sm text-black"
+        >
           <p class="p-1 h-fit bg-white">DPRD</p>
           <p class="p-1 h-fit bg-white">Berita</p>
           <p class="p-1 h-fit bg-white">Indonesia</p>
